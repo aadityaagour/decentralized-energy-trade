@@ -1,0 +1,16 @@
+[package]
+name = "decentralised-engery-trade"
+version = "1.0.0"
+authors = []
+
+[addresses]
+trader_address = '0x3f8897c3b6127213fd3557d72c6292a81f300cfc301e1b87c8fe453fff9a62f8'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
